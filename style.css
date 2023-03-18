@@ -303,6 +303,29 @@ nav .container .list ul li {
     border-radius: 5px;
     border: 2px solid #a0a0a0;
 }
+.contact form input[type="submit"]{
+    position: relative;
+    background-color: gray;
+    color: white;
+    font-weight: bolder;
+    font-size: 17px;
+    border-radius: 20px;
+    width: 20%;
+    margin: 20px auto;
+    padding:10px;
+    cursor: pointer;
+}
+.contact form input[type="submit"]::before{
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 50%;
+    left: 10px;
+    top:0;
+    z-index: 3;
+}
 /* end contact */
 
 /* start footer */
